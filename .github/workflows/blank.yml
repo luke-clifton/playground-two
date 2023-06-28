@@ -31,4 +31,4 @@ jobs:
           curl -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=api://AzureADTokenExchange"
 
   call:
-    uses: luke-clifton/playground/.github/workflows/blank.yaml@master
+    uses: luke-clifton/playground/.github/workflows/blank.yaml
